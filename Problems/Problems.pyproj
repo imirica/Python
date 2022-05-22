@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>0ee27489-851c-47e7-bb7c-f4c41e60985f</ProjectGuid>
+    <ProjectGuid>a15071f5-4d9b-473b-b7a2-74219f483909</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Sorting\MergeSorting.py</StartupFile>
+    <StartupFile>Arrays\arrayProblem.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Algorithms</Name>
-    <RootNamespace>Algorithms</RootNamespace>
-    <IsWindowsApplication>False</IsWindowsApplication>
+    <Name>Problems</Name>
+    <RootNamespace>Problems</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,12 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Searching\" />
-    <Folder Include="Sorting\" />
+    <Compile Include="Arrays\arrayProblem.py" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Searching\LinearSearch.py" />
-    <Compile Include="Sorting\MergeSorting.py" />
+    <Folder Include="Arrays\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
