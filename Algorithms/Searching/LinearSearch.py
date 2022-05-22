@@ -10,14 +10,15 @@ def search(arr, x):
     return -1
  
  
-# Driver Code
+"""EXAMPLE
+
 arr = [2, 3, 4, 10, 40]
 x = 40
 n = len(arr)
  
-# Function call
 result = search(arr, x)
 if(result == -1):
     print("Element is not present in array")
 else:
     print("Element is present at index", result)
+"""
