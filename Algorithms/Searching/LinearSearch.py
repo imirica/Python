@@ -2,9 +2,9 @@
 # else return -1
  
  
-def search(arr, n, x):
+def search(arr, x):
  
-    for i in range(0, n):
+    for i in range(len(arr)):
         if (arr[i] == x):
             return i
     return -1
@@ -12,11 +12,11 @@ def search(arr, n, x):
  
 # Driver Code
 arr = [2, 3, 4, 10, 40]
-x = 10
+x = 40
 n = len(arr)
  
 # Function call
-result = search(arr, n, x)
+result = search(arr, x)
 if(result == -1):
     print("Element is not present in array")
 else:
