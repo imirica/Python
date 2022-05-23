@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Arrays\arrayProblem.py" />
+    <Compile Include="Arrays\SimpleSum.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Arrays\" />
