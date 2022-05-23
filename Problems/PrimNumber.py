@@ -13,11 +13,13 @@ is_prime(2)  /* true  */
 is_prime(-1) /* false */
 """
 
-function isPrime(num) {
-  for(let i = 2; i <= Math.sqrt(num); i++) {
-    if(num % i === 0) {
-      return false;
-    }
-  }
-  return num > 1
-}
+from math import sqrt
+def is_prime(num):
+    if num <= 1:
+        return False
+    i = 2
+    while i <= sqrt(num):    
+        if num%i == 0:
+            return False
+        i += 1
+    return True 
