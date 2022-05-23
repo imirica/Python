@@ -5,4 +5,5 @@ def arraySum(arr):
     for i in range(len(arr)):
         arrsum+=arr[i]
     return arrsum
-print(arraySum([1,2,3,4,5]))
+
+#print(arraySum([1,2,3,4,5]))
