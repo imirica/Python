@@ -14,7 +14,7 @@ is_prime(-1) /* false */
 """
 
 from math import sqrt
-def is_prime(num):
+def isPrim(num):
     if num <= 1:
         return False
     i = 2

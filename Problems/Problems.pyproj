@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="Arrays\arrayProblem.py" />
     <Compile Include="Arrays\SimpleSum.py" />
+    <Compile Include="PrimNumber.py" />
     <Compile Include="Strings\WhoLikesIt.py" />
   </ItemGroup>
   <ItemGroup>
