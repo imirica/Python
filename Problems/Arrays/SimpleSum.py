@@ -7,3 +7,4 @@ def arraySum(arr):
     return arrsum
 
 #print(arraySum([1,2,3,4,5]))
+#
