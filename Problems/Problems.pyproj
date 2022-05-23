@@ -23,9 +23,11 @@
   <ItemGroup>
     <Compile Include="Arrays\arrayProblem.py" />
     <Compile Include="Arrays\SimpleSum.py" />
+    <Compile Include="Strings\WhoLikesIt.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Arrays\" />
+    <Folder Include="Strings\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
