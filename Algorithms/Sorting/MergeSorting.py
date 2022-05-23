@@ -1,5 +1,5 @@
 #MergeSort
-def mergeSort(arr):
+def merge_sort(arr):
     if len(arr) > 1:
   
          # Finding the mid of the array
@@ -12,10 +12,10 @@ def mergeSort(arr):
         R = arr[mid:]
   
         # Sorting the first half
-        mergeSort(L)
+        merge_sortt(L)
   
         # Sorting the second half
-        mergeSort(R)
+        merge_sort(R)
   
         i = j = k = 0
   
@@ -43,7 +43,7 @@ def mergeSort(arr):
 # Code to print the list
   
   
-def printList(arr):
+def print_list(arr):
     for i in range(len(arr)):
         print(arr[i], end=" ")
     print()
@@ -53,7 +53,7 @@ def printList(arr):
 if __name__ == '__main__':
     arr = [12, 11, 13, 5, 6, 7]
     print("Given array is", end="\n")
-    printList(arr)
-    mergeSort(arr)
+    print_list(arr)
+    merge_sort(arr)
     print("Sorted array is: ", end="\n")
-    printList(arr)
+    print_list(arr)
