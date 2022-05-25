@@ -14,7 +14,6 @@ def search(arr, x):
 
 arr = [2, 3, 4, 10, 40]
 x = 40
-n = len(arr)
  
 result = search(arr, x)
 if(result == -1):
