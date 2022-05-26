@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a15071f5-4d9b-473b-b7a2-74219f483909</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Arrays\arrayProblem.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

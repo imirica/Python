@@ -26,6 +26,8 @@
     <Folder Include="Sorting\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Searching\BinarySearch.py" />
+    <Compile Include="Searching\BinarySearchRecursion.py" />
     <Compile Include="Searching\LinearSearch.py" />
     <Compile Include="Sorting\MergeSorting.py" />
   </ItemGroup>
