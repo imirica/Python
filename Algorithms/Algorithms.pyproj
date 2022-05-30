@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0ee27489-851c-47e7-bb7c-f4c41e60985f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Searching\LinearSearch.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,14 +23,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Searching\" />
-    <Folder Include="Sorting\" />
+    <Folder Include="Search\" />
+    <Folder Include="Sort\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Searching\BinarySearch.py" />
-    <Compile Include="Searching\BinarySearchRecursion.py" />
-    <Compile Include="Searching\LinearSearch.py" />
-    <Compile Include="Sorting\MergeSorting.py" />
+    <Compile Include="Search\BinarySearchRecursion.py" />
+    <Compile Include="Search\LinearSearch.py" />
+    <Compile Include="Sort\MergeSort2.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
