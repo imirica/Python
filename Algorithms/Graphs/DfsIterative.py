@@ -13,11 +13,9 @@ def dfs(graph, source):
     
     while stack:
         current = stack.pop()
-        
         if current not in visited:
             print(current)
             visited.add(current)
-            
             for neighbor in graph[current]:
                 stack.append(neighbor)
 
