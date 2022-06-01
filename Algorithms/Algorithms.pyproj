@@ -23,10 +23,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Graphs\" />
     <Folder Include="Search\" />
     <Folder Include="Sort\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Graphs\BfsIterative.py" />
+    <Compile Include="Graphs\DfsIterative.py" />
+    <Compile Include="Graphs\DfsRecursive.py" />
     <Compile Include="Search\BinarySearchRecursion.py" />
     <Compile Include="Search\LinearSearch.py" />
     <Compile Include="Sort\MergeSort2.py" />

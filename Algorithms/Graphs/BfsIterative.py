@@ -1,6 +1,8 @@
 #bfs iterative
 
-def bfs(visited, graph, current):
+def bfs(graph, current):
+    visited=[]
+    queue=[]
     visited.append(current)
     queue.append(current)
 
@@ -15,7 +17,7 @@ def bfs(visited, graph, current):
 
 
 
-"""
+
 graph={
     
     'A':['B','C','D'], 'B':['E'], 'C':['D','E'], 'D':[], 'E':[]
@@ -23,8 +25,4 @@ graph={
     }
 
 
-visited=[]
-queue=[]
-
-bfs(visited, graph, 'A')
-"""
+bfs(graph, 'A')
