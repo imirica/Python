@@ -4,7 +4,7 @@ such that they add up to a specific target.
 You may assume that each input would have exactly one solution,
 and you may not use the same element twice.
 Example:
-    Given nums = [12, 23, 33, 125], target = 137,
+    Given nums = [12, 23, 33, 125,21,33,112,43], target = 137,
     Because nums[0] + nums[3] = 12 + 124 = 137,
     return (0, 3)
 """
