@@ -17,7 +17,7 @@ def bfs(graph, current):
 
 
 
-
+"""
 graph={
     
     'A':['B','C','D'], 'B':['E'], 'C':['D','E'], 'D':[], 'E':[]
@@ -26,3 +26,4 @@ graph={
 
 
 bfs(graph, 'A')
+"""
