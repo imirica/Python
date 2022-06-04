@@ -1,4 +1,4 @@
-//fixed sample codes from:
+//fixed sample code from:
 //https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/ie-mode?tabs=c-sharp#known-limitations
 
 using System;
