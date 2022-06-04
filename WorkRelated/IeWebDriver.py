@@ -1,5 +1,5 @@
-//fixed sample code from:
-//https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/ie-mode?tabs=python#known-limitations
+#fixed sample code from:
+#https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/ie-mode?tabs=python#known-limitations
 
 from selenium import webdriver
 
