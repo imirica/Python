@@ -1,5 +1,5 @@
-#fixed sample code from:
-#https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/ie-mode?tabs=java#known-limitations
+//fixed sample code from:
+//https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/ie-mode?tabs=java#known-limitations
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
