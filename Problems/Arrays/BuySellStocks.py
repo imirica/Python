@@ -13,7 +13,6 @@ def buy_sell_stock(arr):
             minim=arr[i]
             index_minim=i 
 
-    index_max=index_min
     maxim=minim
     for j in range(index_minim, len(arr)):
         if arr[j]>maxim:
