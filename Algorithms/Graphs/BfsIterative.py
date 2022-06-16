@@ -7,10 +7,10 @@ def bfs(graph, current):
     queue.append(current)
 
     while queue:
-        m=queue.pop(0)
+        current=queue.pop(0)
         print(m)
 
-        for neighbour in graph[m]:
+        for neighbour in graph[current]:
             if neighbour not in visited:
                 visited.append(neighbour)
                 queue.append(neighbour)
@@ -27,3 +27,19 @@ graph={
 
 bfs(graph, 'A')
 """
+"""using set()
+def dfs(graph, source):
+
+    visited=set()
+    stack=[]
+    stack.append(source)
+
+    while stack:
+        
+        current=stack.pop(0)
+        print (current)
+        if current not in visited:
+            visited.add(current)
+
+        for neighbor in graph[current]:
+            stack.append(neighbor)"""
