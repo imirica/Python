@@ -28,7 +28,7 @@ graph={
 bfs(graph, 'A')
 """
 """using set()
-def dfs(graph, source):
+def bfs(graph, source):
 
     visited=set()
     stack=[]
