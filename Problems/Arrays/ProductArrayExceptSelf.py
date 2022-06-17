@@ -8,6 +8,7 @@ You must write an algorithm that runs in O(n) time and without using the divisio
 
 
 def item_product(arr):
+    
     left=[1]*(len(arr))
 
     for i in range(len(arr)):
