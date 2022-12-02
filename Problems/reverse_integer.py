@@ -3,7 +3,7 @@
 def reverse_integer(x):
 
     #create int_reversed and set it to 0
-    int_reserved=0
+    int_reversed=0
 
     while x>0:
 
@@ -16,4 +16,4 @@ def reverse_integer(x):
         #int_reversed = int_reserved*10 + the reminder
         int_reserved=int_reserved*10 + reminder
 
-    return int_reserved
+    return int_reversed
