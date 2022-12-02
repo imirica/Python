@@ -14,6 +14,6 @@ def reverse_integer(x):
         x=x//10
 
         #int_reversed = int_reserved*10 + the reminder
-        int_reserved=int_reserved*10 + reminder
+        int_reversed=int_reversed*10 + reminder
 
     return int_reversed
