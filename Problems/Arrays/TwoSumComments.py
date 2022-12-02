@@ -1,6 +1,6 @@
 #Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 #input (what) : nums (array) + target (integer)
-#output : indices of array (list of integers)
+#output : indices of array (integers)
 
 arr=[]
 
