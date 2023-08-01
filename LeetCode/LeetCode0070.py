@@ -3,6 +3,7 @@ def climb_stairs(n):
         return n
 
     # Create an array to store the number of ways to reach each step
+    # We add 1 to the size of the array to accommodate steps from 0 to n
     dp = [0] * (n + 1)
 
     # There's one way to reach step 0 (by not taking any step)
