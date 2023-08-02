@@ -1,8 +1,8 @@
 # Definition of a ListNode class used to create linked list nodes
 class ListNode:
     def __init__(self, val = 0, next = None):
-        self.val = val  # The value of the current node
-        self.next = next  # A reference to the next node in the linked list
+        self.val = val 
+        self.next = next 
 
 # Function to remove duplicates from a sorted linked list
 def remove_duplicates(head):
